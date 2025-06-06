@@ -30,7 +30,7 @@ def main():
     # 4) ユーザー入力を受け取って実行
     user_q = input("質問をどうぞ > ")
     answer = sequence.invoke({"question": user_q})
-    print("\n🧠 回答:\n", answer.strip())
+    print("\n 回答:\n", answer.strip())
 
 if __name__ == "__main__":
     main()
